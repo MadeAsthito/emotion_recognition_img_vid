@@ -68,7 +68,7 @@ while True:
 
     # Menampilkan video kamera
     cv2.imshow('Emotion Recognition', frame)
-    # Jika mengklik 'q' maka akan mengeluarkan pengguna dari windo video
+    # Jika mengklik 'q' maka akan mengeluarkan pengguna dari window video, dan user hanya dapat keluar jika mengklik 'q'
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
